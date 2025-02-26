@@ -1,23 +1,13 @@
 #include <stdio.h> 
 
 int main() {
-    
-    char estado;
-    char codigo_de_cartas[10];
-    char nome_da_cidade[10];
+
+    printf("bem vindo ao super trunfo de cartas de paises\n");
+
     int populacao;
     float area_em_km;
     float pib;
     int numero_de_pontos_turisticos;
-
-    printf("digite o estado: \n");
-    scanf("%c", &estado);
-
-    printf("digite o codiigo da carta: \n");
-    scanf("%s", codigo_de_cartas);
-
-    printf("digite o nome da cidade: \n");
-    scanf("%s", nome_da_cidade);
 
     printf("digte a populacao; \n");
     scanf("%d", &populacao);
@@ -31,6 +21,21 @@ int main() {
     printf("numeros de pontos turisticos: \n");
     scanf("%d", &numero_de_pontos_turisticos);
 
+    printf("carta 2: \n");
 
-    return 0;
+    printf("digte a populacao2; \n");
+    scanf("%d", &populacao);
+
+    printf("digite a area em km2: \n");
+    scanf("%f", &area_em_km);
+
+    printf("digte o pib2: \n");
+    scanf("%f", &pib);
+
+    printf("numeros de pontos turisticos2: \n");
+    scanf("%d", &numero_de_pontos_turisticos);
+
+
+
+        return 0;
 }
